@@ -1,3 +1,3 @@
 ## unimodular
 
-scientific project.
+# unimodular graphs & the mass transport principle
