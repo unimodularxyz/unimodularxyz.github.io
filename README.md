@@ -1,2 +1,2 @@
-$$p_u(G) := \inf \{p : N = 1 \text{ a.s.} \} $$
+$$p_u(G) := \inf \\{p : N = 1 \text{ a.s.} \\} $$
 
