@@ -21,31 +21,36 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      color: #38bdf8; /* light blue */;
+      color: #dbeafe; /* light blue */;
       margin: 0;
       padding: 2em;
     }
 
     .unimod-box {
       display: block;
-      max-width: 300px;
+      max-width: 600px; /* wider box */
       margin: 2em auto;
-      padding: 1em 1.5em;
+      padding: 1em 2em;
       text-align: center;
       text-decoration: none;
       font-family: inherit;
-      font-size: 1.2em;
-      color: white;
-      background: #172554; /* depp blue */
-      border: 2px solid #059669; /* emerald-600 */
+      font-size: 1.5em;
+      color: #dbeafe; /* light blue text */
+      background: #1e3a8a; /* strong dark blue */
+      border: 2px solid #172554; /* slightly darker border */
       border-radius: 12px;
-      box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
-      transition: background 0.2s ease;
+      box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.4);
+      transition: background 0.2s ease, transform 0.2s ease;
     }
 
     .unimod-box:hover {
-      background: #059669;
+      background: #172554;
+      transform: scale(1.02);
     }
+
+
+
+
   </style>
 </head>
 
