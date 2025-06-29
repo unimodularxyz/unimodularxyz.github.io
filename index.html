@@ -26,7 +26,23 @@
       padding: 2em;
     }
 
+    .twinkle {
+      animation: twinkle 2s infinite ease-in-out;
+      color: #dbeafe;
+      text-shadow: 0 0 10px #dbeafe, 0 0 20px #93c5fd, 0 0 30px #60a5fa;
+    }
 
+    @keyframes twinkle {
+      0%, 100% {
+        opacity: 1;
+        text-shadow: 0 0 10px #dbeafe, 0 0 20px #93c5fd, 0 0 30px #60a5fa;
+      }
+      50% {
+        opacity: 0.6;
+        text-shadow: 0 0 4px #93c5fd, 0 0 8px #60a5fa;
+      }
+    }
+    
     .marquee-container {
     overflow: hidden;
     white-space: nowrap;
@@ -83,7 +99,7 @@
 
 <body>
   <center>
-    <h1>unimodular</h1>
+    <h1 class="twinkle">unimodular</h1>
     <div class="marquee-container">
     <span class="marquee-text">
     Quantitative Research — On-chain Liquidity Management
