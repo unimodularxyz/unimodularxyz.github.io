@@ -14,17 +14,47 @@
   <!-- Inline CSS -->
   <style>
     body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
       font-family: 'Bruno Ace', serif;
-      font-size: 32px;
+      font-size: 48px;
       background-color: black;
       background-image: url('assets/background.webp');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      color: #dbeafe; /* light blue */;
+      color: #dbeafe;
       margin: 0;
       padding: 2em;
     }
+
+    header h1 {
+      text-align: center;
+      animation: twinkle 2s infinite ease-in-out;
+      text-shadow: 0 0 10px #dbeafe, 0 0 20px #93c5fd, 0 0 30px #60a5fa;
+    }
+
+    .bottom-info {
+      text-align: center;
+      margin-top: auto;
+      font-size: 0.5em;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 1em;
+      padding: 1em 0;
+      color: #dbeafe;
+      font-family: 'Bruno Ace', serif;
+    }
+
+    footer a {
+      color: #93c5fd;
+      text-decoration: underline;
+    }
+
 
     .twinkle {
       animation: twinkle 5s infinite ease-in-out;
@@ -49,40 +79,29 @@
 </head>
 
 <body>
-  <center>
 
-    <h1 class="twinkle">unimodular</h1>
-    <h3>
-    Quantitative Research & On-chain Liquidity Management
-    </h3>
+<header>
+  <h1 class="twinkle">unimodular</h1>
+</header>
 
+<div class="bottom-info">
+  <h4>Quantitative Research</h4>
+  <h4>On-chain Liquidity Management</h4>
 
-    <h3>
-      <a href="https://unimodular.notion.site/unimod"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="twinkle">
-        unimod project
-      </a>
-    </h3>
-
-  </center>
-
-
-<footer style="
-  text-align: center;
-  padding: 1em 1em;
-  font-size: 0.5em;
-  color: #dbeafe;
-  background-color: rgba(23, 37, 84, 0.8);
-  font-family: 'Bruno Ace', serif;
-">
-  Contact us: <a href="mailto:info@unimodular.xyz" style="color: #93c5fd; text-decoration: underline;">
-    info@unimodular.xyz
+  <a href="https://unimodular.notion.site/unimod"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="unimod-box">
+    🧩 Unimod Project
   </a>
+</div>
+
+<footer>
+  Contact us at <a href="mailto:info@unimodular.xyz">info@unimodular.xyz</a>
 </footer>
 
 
 </body>
+
 </html>
 
