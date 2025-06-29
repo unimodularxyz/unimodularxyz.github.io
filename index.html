@@ -30,6 +30,48 @@
 
     header {
       width: 100%;
+      text-align: center;
+    }
+
+    header h2 {
+      margin: 0.2em 0;
+      font-size: 1.5em;
+      color: #dbeafe;
+      text-shadow: 0 0 6px #93c5fd;
+    }
+
+    /* Optional: responsive scaling */
+    @media (max-width: 600px) {
+      h1.twinkle {
+        font-size: 3em;
+      }
+
+      header h2 {
+        font-size: 1.2em;
+      }
+
+      .unimod-link {
+        font-size: 2em;
+      }
+    }
+
+    .unimod-link {
+      display: block;
+      text-align: center;
+      margin: 5em auto;
+      font-family: 'Bruno Ace', serif;
+      font-size: 3em;
+      color: #dbeafe;
+      text-decoration: none;
+    }
+
+    .unimod-link:hover {
+      text-decoration: underline;
+      color: #93c5fd;
+    }
+
+    .unimod-link:visited {
+      color: #dbeafe;
     }
 
     h1.twinkle {
@@ -52,21 +94,6 @@
       }
     }
 
-    .unimod-link {
-      display: block;
-      text-align: center;
-      margin: 5em auto;
-      font-family: 'Bruno Ace', serif;
-      font-size: 3em;
-      color: #dbeafe;
-      text-decoration: none;
-    }
-
-    .unimod-link:hover {
-      text-decoration: underline;
-      color: #93c5fd;
-    }
-
     footer {
       text-align: center;
       font-size: 1em;
@@ -81,8 +108,7 @@
 
   <header>
     <h1 class="twinkle">unimodular</h1>
-      <h2>Quantitative Research</h2>
-      <h2>On-chain Liquidity Management</h2>
+    <h2>Quantitative Research & On-chain Liquidity Management</h2>
   </header>
 
   <a href="https://unimodular.notion.site/unimod"
